@@ -29746,11 +29746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msb\\Desktop\\UWP_TEST\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\msb\\Documents\\GitHub\\test\\Test\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\msb\\Desktop\\UWP_TEST\\Test\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\msb\\Documents\\GitHub\\test\\Test\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\msb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msb\\Desktop\\UWP_TEST\\Test\\Test\\obj\\",
+      "outputPath": "C:\\Users\\msb\\Documents\\GitHub\\test\\Test\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
