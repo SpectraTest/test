@@ -1,0 +1,2 @@
+MainPackage=C:\Users\msb\Desktop\UWP_TEST\Test\Test\bin\ARM\Debug\Test_1.0.1.0_ARM_Debug.appx
+SymbolPackage=C:\Users\msb\Desktop\UWP_TEST\Test\Test\AppPackages\Test_1.0.1.0_Debug_Test\Test_1.0.1.0_ARM_Debug.appxsym
