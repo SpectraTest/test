@@ -1,1 +1,1 @@
-C:\Users\msb\Desktop\UWP_TEST\Test\Test\Test.csproj;x64
+C:\Users\msb\Documents\GitHub\test\Test\Test\Test.csproj;x64
