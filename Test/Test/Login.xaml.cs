@@ -1,28 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 namespace Test
 {
-    public sealed partial class Login : Page
+    public sealed partial class Login : Windows.UI.Xaml.Controls.Page
     {
         public Login()
         {
             this.InitializeComponent();
         }
 
-        private async void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        private async void ButtonBase_OnClick(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             var userN = UserN.Text;
             var passW = PassW.Password;
@@ -33,13 +20,13 @@ namespace Test
             }
             else
             {
-                ContentDialog wrongCredentialsDialog = new ContentDialog
+                Windows.UI.Xaml.Controls.ContentDialog wrongCredentialsDialog = new Windows.UI.Xaml.Controls.ContentDialog
                 {
                     Title = "Error",
                     Content = "Username or Password invalid",
                     CloseButtonText = "Ok"
                 };
-                ContentDialogResult res = await wrongCredentialsDialog.ShowAsync();
+                Windows.UI.Xaml.Controls.ContentDialogResult res = await wrongCredentialsDialog.ShowAsync();
             }
         }
     }
